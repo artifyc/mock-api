@@ -5,41 +5,42 @@ router.get("/", function(req, res, next) {
     mockResponse = [
         {
           "id": 1,
-          "artworkTitle": "blah",
-          "artistName": "blah",
+          "artworkTitle": "Jack of Spades",
+          "artistName": "sabimaki",
           "artistAvailability": "Open",
-          "commissionType": "Full-body",
+          "commissionType": "Half-body",
           "priceRange": "$$",
-          "imageSource": ""
+          "imageSource": "http://localhost:9000/images/jackofspades"
         },
         {
           "id": 2,
-          "artworkTitle": "blah",
-          "artistName": "blah",
-          "artistAvailability": "Open",
+          "artworkTitle": "Bojack Crew",
+          "artistName": "sabimaki",
+          "artistAvailability": "Waitlist",
           "commissionType": "Full-body",
-          "priceRange": "$$",
-          "imageSource": ""
+          "priceRange": "$",
+          "imageSource": "http://localhost:9000/images/bojackcrew"
         },
         {
           "id": 3,
-          "artworkTitle": "blah",
-          "artistName": "blah",
+          "artworkTitle": "Demon Slayer Girl",
+          "artistName": "sabimaki",
           "artistAvailability": "Open",
-          "commissionType": "Full-body",
+          "commissionType": "Half-body",
           "priceRange": "$$",
-          "imageSource": ""
+          "imageSource": "http://localhost:9000/images/demonslayergirl"
         },
         {
           "id": 4,
-          "artworkTitle": "blah",
-          "artistName": "blah",
+          "artworkTitle": "Jack of Spades",
+          "artistName": "sabimaki",
           "artistAvailability": "Open",
-          "commissionType": "Full-body",
+          "commissionType": "Half-body",
           "priceRange": "$$",
-          "imageSource": ""
+          "imageSource": "http://localhost:9000/images/zeldasketch"
         },
       ];
+    
       res.json(mockResponse);
 });
 
