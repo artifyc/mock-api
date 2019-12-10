@@ -32,7 +32,7 @@ router.get("/", function(req, res, next) {
         },
         {
           "id": 4,
-          "artworkTitle": "Jack of Spades",
+          "artworkTitle": "Zelda Sketch",
           "artistName": "sabimaki",
           "artistAvailability": "Open",
           "commissionType": "Half-body",
