@@ -10,7 +10,8 @@ router.get("/", function(req, res, next) {
           "artistAvailability": "Open",
           "commissionType": "Half-body",
           "priceRange": "$$",
-          "imageSource": "http://localhost:9000/images/jackofspades"
+          "imageSource": "http://localhost:9000/images/jackofspades",
+          "tags": ["prince", "jack"]
         },
         {
           "id": 2,
@@ -19,7 +20,8 @@ router.get("/", function(req, res, next) {
           "artistAvailability": "Waitlist",
           "commissionType": "Full-body",
           "priceRange": "$",
-          "imageSource": "http://localhost:9000/images/bojackcrew"
+          "imageSource": "http://localhost:9000/images/bojackcrew",
+          "tags": ["bojack", "crew"]
         },
         {
           "id": 3,
@@ -28,19 +30,21 @@ router.get("/", function(req, res, next) {
           "artistAvailability": "Open",
           "commissionType": "Half-body",
           "priceRange": "$$",
-          "imageSource": "http://localhost:9000/images/demonslayergirl"
+          "imageSource": "http://localhost:9000/images/demonslayergirl",
+          "tags": ["demon", "girl"]
         },
         {
           "id": 4,
-          "artworkTitle": "Jack of Spades",
+          "artworkTitle": "Zelda",
           "artistName": "sabimaki",
           "artistAvailability": "Open",
           "commissionType": "Half-body",
           "priceRange": "$$",
-          "imageSource": "http://localhost:9000/images/zeldasketch"
+          "imageSource": "http://localhost:9000/images/zeldasketch",
+          "tags": ["zelda"]
         },
       ];
-    
+
       res.json(mockResponse);
 });
 
