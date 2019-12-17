@@ -35,7 +35,7 @@ router.get("/", function(req, res, next) {
         },
         {
           "id": 4,
-          "artworkTitle": "Zelda",
+          "artworkTitle": "Zelda Sketch",
           "artistName": "sabimaki",
           "artistAvailability": "Open",
           "commissionType": "Half-body",
